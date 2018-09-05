@@ -188,7 +188,8 @@ public class ABC {
 		try {
 			byte[] bdata = FileCopyUtils.copyToByteArray( in);//new FileInputStream(file));
 		   System.out.println("Got the data "+bdata.length + " : "+bdata);
-			content = new String(bdata, StandardCharsets.UTF_8);
+			content = new String(bdata);
+			System.out.println(content);
 		} catch (IOException e) {
 			System.out.println("Exception in load template " + e);
 		}
