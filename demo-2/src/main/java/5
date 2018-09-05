@@ -1,0 +1,175 @@
+{
+  "taxonomies": [
+    {
+      "id": 4,
+      "name": "Brands",
+      "root": {
+        "id": 15,
+        "name": "Brands",
+        "pretty_name": "Brands",
+        "permalink": "brands",
+        "parent_id": null,
+        "taxonomy_id": 4,
+        "meta_title": null,
+        "meta_description": null,
+        "taxons": [
+          {
+            "id": 16,
+            "name": "walrus",
+            "pretty_name": "Brands -> IKEA",
+            "permalink": "brands\/ikea",
+            "parent_id": 15,
+            "taxonomy_id": 4,
+            "meta_title": "",
+            "meta_description": "",
+            "taxons": [
+              {
+                "id": 43,
+                "name": "kwality",
+                "pretty_name": "Brands -> IKEA -> Living",
+                "permalink": "brands\/ikea\/living",
+                "parent_id": 16,
+                "taxonomy_id": 4,
+                "meta_title": null,
+                "meta_description": null,
+                "taxons": [
+                  
+                ],
+                "icon": null
+              },
+              {
+                "id": 44,
+                "name": "mother diary",
+                "pretty_name": "Brands -> IKEA -> New node",
+                "permalink": "brands\/ikea\/new-node",
+                "parent_id": 16,
+                "taxonomy_id": 4,
+                "meta_title": null,
+                "meta_description": null,
+                "taxons": [
+                  
+                ],
+                "icon": null
+              },
+              {
+                "id": 45,
+                "name": "iceream",
+                "pretty_name": "Brands -> IKEA -> Bedroom",
+                "permalink": "brands\/ikea\/bedroom",
+                "parent_id": 16,
+                "taxonomy_id": 4,
+                "meta_title": null,
+                "meta_description": null,
+                "taxons": [
+                  
+                ],
+                "icon": null
+              },
+              {
+                "id": 46,
+                "name": "icecream",
+                "pretty_name": "Brands -> IKEA -> Study",
+                "permalink": "brands\/ikea\/study",
+                "parent_id": 16,
+                "taxonomy_id": 4,
+                "meta_title": null,
+                "meta_description": null,
+                "taxons": [
+                  
+                ],
+                "icon": null
+              }
+            ],
+            "icon": "assets/images/icecream1.jpeg"
+          },
+          {
+            "id": 17,
+            "name": "london diary",
+            "pretty_name": "Brands -> T.J.maxx",
+            "permalink": "brands\/tjmaxx",
+            "parent_id": 15,
+            "taxonomy_id": 4,
+            "meta_title": "",
+            "meta_description": "",
+            "taxons": [
+              {
+                "id": 47,
+                "name": "royale",
+                "pretty_name": "Brands -> T.J.maxx -> Living",
+                "permalink": "brands\/tjmaxx\/living",
+                "parent_id": 17,
+                "taxonomy_id": 4,
+                "meta_title": null,
+                "meta_description": null,
+                "taxons": [
+                  
+                ],
+                "icon": null
+              },
+              {
+                "id": 48,
+                "name": "icream",
+                "pretty_name": "Brands -> T.J.maxx -> Study",
+                "permalink": "brands\/tjmaxx\/study",
+                "parent_id": 17,
+                "taxonomy_id": 4,
+                "meta_title": null,
+                "meta_description": null,
+                "taxons": [
+                  
+                ],
+                "icon": null
+              },
+              {
+                "id": 49,
+                "name": "cream",
+                "pretty_name": "Brands -> T.J.maxx -> Dining",
+                "permalink": "brands\/tjmaxx\/dining",
+                "parent_id": 17,
+                "taxonomy_id": 4,
+                "meta_title": null,
+                "meta_description": null,
+                "taxons": [
+                  
+                ],
+                "icon": null
+              },
+              {
+                "id": 50,
+                "name": "icecream",
+                "pretty_name": "Brands -> T.J.maxx -> Bedroom",
+                "permalink": "brands\/tjmaxx\/bedroom",
+                "parent_id": 17,
+                "taxonomy_id": 4,
+                "meta_title": null,
+                "meta_description": null,
+                "taxons": [
+                  
+                ],
+                "icon": null
+              }
+            ],
+            "icon": "assets/images/icecream1.jpeg"
+                   },
+          {
+            "id": 18,
+            "name": "Whirlpool",
+            "pretty_name": "Brands -> Whirlpool",
+            "permalink": "brands\/whirlpool",
+            "parent_id": 15,
+            "taxonomy_id": 4,
+            "meta_title": "",
+            "meta_description": "",
+            "taxons": [
+              
+            ],
+            "icon": "assets/images/icecream1.jpeg"
+              }
+        ]
+      }
+    }
+  ],
+  "count": 1,
+  "current_page": 1,
+  "pages": 1
+}

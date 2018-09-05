@@ -1,0 +1,238 @@
+{
+  "data": {
+    "id": 17,
+    "type": "products",
+    "attributes": {
+      "id": 17,
+      "name": "Natural Icecream ",
+      "description": "",
+      "price": "399.0",
+      "display_price": "399.00",
+      "available_on": "2018-06-01T00:00:00.000Z",
+      "slug": "ekebol-wooden-steal",
+      "meta_description": "",
+      "meta_keywords": "",
+      "shipping_category_id": 1,
+      "taxon_ids": [
+        20,
+        12
+      ],
+      "total_on_hand": 996,
+      "avg_rating": "0.0",
+      "reviews_count": 0,
+      "currency": "₹",
+      "has_variants": false,
+      "cost_price": "420.0",
+      "is_favorited_by_current_user": false
+    },
+    "relationships": {
+      "master": {
+        "data": {
+          "type": "master",
+          "id": 27
+        }
+      },
+      "variants": {
+        "data": [
+          
+        ]
+      },
+      "option_types": {
+        "data": [
+          
+        ]
+      },
+      "product_properties": {
+        "data": [
+          
+        ]
+      },
+      "classifications": {
+        "data": [
+          {
+            "type": "classifications",
+            "id": 33
+          },
+          {
+            "type": "classifications",
+            "id": 34
+          }
+        ]
+      }
+    },
+    "included": {
+      "master": {
+        "data": {
+          "attributes": {
+            "id": 27,
+            "name": "ice cream",
+            "sku": "EKEBOL-W-S",
+            "price": "399.0",
+            "weight": "25.0",
+            "height": null,
+            "width": null,
+            "depth": null,
+            "is_master": true,
+            "slug": "ekebol-wooden-steal",
+            "description": "",
+            "track_inventory": true,
+            "display_price": "₹399.00",
+            "options_text": "",
+            "in_stock": true,
+            "is_backorderable": true,
+            "is_orderable": true,
+            "total_on_hand": 996,
+            "is_destroyed": false,
+            "cost_price": "420.0"
+          },
+          "relationships": {
+            "option_values": {
+              "data": [
+                
+              ]
+            },
+            "images": {
+              "data": [
+                {
+                  "type": "images",
+                  "id": 67
+                },
+                {
+                  "type": "images",
+                  "id": 68
+                },
+                {
+                  "type": "images",
+                  "id": 69
+                }
+              ]
+            }
+          },
+          "included": {
+            "option_values": [
+              
+            ],
+            "images": [
+              {
+                "data": {
+                  "attributes": {
+                    "id": 67,
+                    "position": 1,
+                    "attachment_content_type": null,
+                    "attachment_file_name": null,
+                    "type": "Spree::Image",
+                    "attachment_updated_at": null,
+                    "attachment_width": null,
+                    "attachment_height": null,
+                    "alt": "EKEBOL main picture",
+                    "viewable_type": "Spree::Variant",
+                    "viewable_id": 27,
+                    "mini_url": "/assets/images/icecream1.jpeg",
+                    "small_url": "assets/images/icecream1.jpeg",
+                    "product_url": "assets/images/icecream1.jpeg",
+                    "large_url": "assets/images/icecream1.jpeg"
+                  }
+                }
+              },
+              {
+                "data": {
+                  "attributes": {
+                    "id": 68,
+                    "position": 2,
+                    "attachment_content_type": null,
+                    "attachment_file_name": null,
+                    "type": "Spree::Image",
+                    "attachment_updated_at": null,
+                    "attachment_width": null,
+                    "attachment_height": null,
+                    "alt": "EKEBOL image sec-2",
+                    "viewable_type": "Spree::Variant",
+                    "viewable_id": 27,
+                    "mini_url": "/assets/images/icecream1.jpeg",
+                    "small_url": "assets/images/icecream1.jpeg",
+                    "product_url": "assets/images/icecream1.jpeg",
+                    "large_url": "assets/images/icecream1.jpeg"  
+                   }
+                }
+              },
+              {
+                "data": {
+                  "attributes": {
+                    "id": 69,
+                    "position": 3,
+                    "attachment_content_type": null,
+                    "attachment_file_name": null,
+                    "type": "Spree::Image",
+                    "attachment_updated_at": null,
+                    "attachment_width": null,
+                    "attachment_height": null,
+                    "alt": "EKEBOL image sec-2",
+                    "viewable_type": "Spree::Variant",
+                    "viewable_id": 27,
+                     "mini_url": "/assets/images/icecream1.jpeg",
+                    "small_url": "assets/images/icecream1.jpeg",
+                    "product_url": "assets/images/icecream1.jpeg",
+                    "large_url": "assets/images/icecream1.jpeg"
+                    }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "variants": [
+        
+      ],
+      "option_types": [
+        
+      ],
+      "product_properties": [
+        
+      ],
+      "classifications": [
+        {
+          "data": {
+            "attributes": {
+              "taxon_id": 20,
+              "position": 1,
+              "taxon": {
+                "id": 20,
+                "name": "Ice cream",
+                "pretty_name": "Categories -> Living -> Sofas -> Wooden Sofa Sets",
+                "permalink": "living\/sofas\/wooden-sofa-sets",
+                "parent_id": 19,
+                "taxonomy_id": 1,
+                "meta_title": null,
+                "meta_description": null,
+                "taxons": [
+                  
+                ]
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "attributes": {
+              "taxon_id": 12,
+              "position": 1,
+              "taxon": {
+                "id": 12,
+                "name": "Today's Deals",
+                "pretty_name": "Today's Deals",
+                "permalink": "todays-deals",
+                "parent_id": null,
+                "taxonomy_id": 3,
+                "meta_title": null,
+                "meta_description": null,
+                "taxons": [
+                  
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

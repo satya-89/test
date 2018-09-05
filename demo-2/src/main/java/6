@@ -1,0 +1,24 @@
+{
+  "taxonomies": [
+    {
+      "id": 3,
+      "name": "Today's Deals",
+      "root": {
+        "id": 12,
+        "name": "Today's Deals",
+        "pretty_name": "Today's Deals",
+        "permalink": "todays-deals",
+        "parent_id": null,
+        "taxonomy_id": 3,
+        "meta_title": null,
+        "meta_description": null,
+        "taxons": [
+          
+        ]
+      }
+    }
+  ],
+  "count": 1,
+  "current_page": 1,
+  "pages": 1
+}
