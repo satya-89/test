@@ -3,6 +3,7 @@ package com.mitoconnect.pe;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +16,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.FileCopyUtils;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -159,8 +161,7 @@ public class ABC {
 			@RequestParam(value = "q", defaultValue = "test") final String q,
 			@RequestParam(value = "set", defaultValue = "nested") final String set,
 			@RequestParam(value = "per_page", defaultValue = "2") final String per_page) throws Exception {
-		ClassLoader classLoader = getClass().getClassLoader();
-
+		
 		Resource resource;
 		if (q.equalsIgnoreCase("Brands"))
 			resource = new ClassPathResource("5");
@@ -177,7 +178,9 @@ public class ABC {
 		File file = resource.getFile();
 		String content = "";
 		try {
-			content = new String(Files.readAllBytes(file.toPath()));
+			byte[] bdata = FileCopyUtils.copyToByteArray(resource.getInputStream());
+		
+			content = new String(bdata, StandardCharsets.UTF_8);
 		} catch (IOException e) {
 			System.out.println("Exception in load template " + e);
 		}
