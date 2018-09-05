@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.ArrayList;
@@ -166,23 +167,26 @@ public class ABC {
 		
 		Resource resource;
 		File file; //= ResourceUtils.getFile("classpath:application.properties");
-        
+		InputStream in ; 
+		//getClass().getResourceAsStream("file.txt")
 		if (q.equalsIgnoreCase("Brands"))
 		//	resource = new ClassPathResource("5");
-			file = ResourceUtils.getFile("5");
+		//	file = ResourceUtils.getFile("5");
+			in = getClass().getResourceAsStream("5");
 		if (q.equalsIgnoreCase("Today's Deals"))
 		//	resource = new ClassPathResource("6");
-		file = ResourceUtils.getFile("6");
-
+		//file = ResourceUtils.getFile("6");
+		in = getClass().getResourceAsStream("6");
 		else
-			file = ResourceUtils.getFile("4");
+			//file = ResourceUtils.getFile("4");
+		in = getClass().getResourceAsStream("6");
 			//resource = new ClassPathResource("4");
 
 
 		//File file = resource.getFile();
 		String content = "";
 		try {
-			byte[] bdata = FileCopyUtils.copyToByteArray(new FileInputStream(file));
+			byte[] bdata = FileCopyUtils.copyToByteArray( in);//new FileInputStream(file));
 		
 			content = new String(bdata, StandardCharsets.UTF_8);
 		} catch (IOException e) {
