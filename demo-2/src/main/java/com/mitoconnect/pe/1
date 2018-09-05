@@ -1,0 +1,39 @@
+{
+  "pagination": {
+    "count": 2,
+    "total_count": 2,
+    "current_page": 1,
+    "per_page": 20,
+    "pages": 1
+  },
+  "data": [
+    {
+      "id": 17,
+      "type": "products",
+      "attributes": {
+        "slug": "ekebol-wooden-steal",
+        "name": "Icecream",
+       	"product_url": "assets/images/icecream1.jpeg",
+        "price": "399.0",
+        "cost_price": "420.0",
+        "avg_rating": "0.0",
+        "reviews_count": 0,
+        "currency": "$"
+      }
+    },
+    {
+      "id": 19,
+      "type": "products",
+      "attributes": {
+        "slug": "cushion",
+        "name": "Icecream",
+        "product_url": "assets/images/icecream1.jpeg",
+        "price": "5.3",
+        "cost_price": "6.5",
+        "avg_rating": "0.0",
+        "reviews_count": 0,
+        "currency": "$"
+      }
+    }
+  ]
+}

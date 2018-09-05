@@ -1,0 +1,146 @@
+{
+  "id": 11151,
+  "number": "R541513946",
+  "item_total": "399.0",
+  "total": "399.0",
+  "ship_total": "0.0",
+  "state": "address",
+  "adjustment_total": "0.0",
+  "user_id": null,
+  "created_at": "2018-08-22T18:07:16.354Z",
+  "updated_at": "2018-08-22T18:08:18.258Z",
+  "completed_at": null,
+  "payment_total": "0.0",
+  "shipment_state": null,
+  "payment_state": null,
+  "email": null,
+  "special_instructions": null,
+  "channel": "spree",
+  "included_tax_total": "0.0",
+  "additional_tax_total": "0.0",
+  "display_included_tax_total": "$0.00",
+  "display_additional_tax_total": "$0.00",
+  "tax_total": "0.0",
+  "currency": "USD",
+  "considered_risky": false,
+  "canceler_id": null,
+  "display_item_total": "$399.00",
+  "total_quantity": 1,
+  "display_total": "$399.00",
+  "display_ship_total": "$0.00",
+  "display_tax_total": "$0.00",
+  "display_adjustment_total": "$0.00",
+  "token": "Z5WOjrIGefyBPucPrMz0oA1534961236354",
+  "checkout_steps": [
+    "address",
+    "delivery",
+    "payment",
+    "complete"
+  ],
+  "bill_address": null,
+  "ship_address": null,
+  "line_items": [
+    {
+      "id": 1968,
+      "quantity": 1,
+      "price": "399.0",
+      "variant_id": 27,
+      "variant": {
+        "product_id": 17,
+        "id": 27,
+        "name": "Sofa, Katorp natural",
+        "sku": "EKEBOL-W-S",
+        "price": "399.0",
+        "weight": "25.0",
+        "height": null,
+        "width": null,
+        "depth": null,
+        "is_master": true,
+        "slug": "ekebol-wooden-steal",
+        "description": "",
+        "track_inventory": true,
+        "option_values": [
+          
+        ],
+        "images": [
+          {
+            "id": 67,
+            "position": 1,
+            "attachment_content_type": null,
+            "attachment_file_name": null,
+            "type": "Spree::Image",
+            "attachment_updated_at": null,
+            "attachment_width": null,
+            "attachment_height": null,
+            "alt": "EKEBOL main picture",
+            "viewable_type": "Spree::Variant",
+            "viewable_id": 27,
+            "mini_url": "/assets/images/icecream1.jpeg",
+                    "small_url": "assets/images/icecream1.jpeg",
+                    "product_url": "assets/images/icecream1.jpeg",
+                    "large_url": "assets/images/icecream1.jpeg" },
+          {
+            "id": 68,
+            "position": 2,
+            "attachment_content_type": null,
+            "attachment_file_name": null,
+            "type": "Spree::Image",
+            "attachment_updated_at": null,
+            "attachment_width": null,
+            "attachment_height": null,
+            "alt": "EKEBOL image sec-2",
+            "viewable_type": "Spree::Variant",
+            "viewable_id": 27,
+            "mini_url": "/assets/images/icecream1.jpeg",
+                    "small_url": "assets/images/icecream1.jpeg",
+                    "product_url": "assets/images/icecream1.jpeg",
+                    "large_url": "assets/images/icecream1.jpeg"},
+          {
+            "id": 69,
+            "position": 3,
+            "attachment_content_type": null,
+            "attachment_file_name": null,
+            "type": "Spree::Image",
+            "attachment_updated_at": null,
+            "attachment_width": null,
+            "attachment_height": null,
+            "alt": "EKEBOL image sec-2",
+            "viewable_type": "Spree::Variant",
+            "viewable_id": 27,
+            "mini_url": "/assets/images/icecream1.jpeg",
+                    "small_url": "assets/images/icecream1.jpeg",
+                    "product_url": "assets/images/icecream1.jpeg",
+                    "large_url": "assets/images/icecream1.jpeg" }
+        ],
+        "display_price": "$399.00",
+        "options_text": "",
+        "in_stock": true,
+        "is_backorderable": true,
+        "is_orderable": true,
+        "total_on_hand": 996,
+        "is_destroyed": false
+      },
+      "adjustments": [
+        
+      ],
+      "single_display_amount": "$399.00",
+      "display_amount": "$399.00",
+      "total": "399.0"
+    }
+  ],
+  "payments": [
+    
+  ],
+  "shipments": [
+    
+  ],
+  "adjustments": [
+    
+  ],
+  "credit_cards": [
+    
+  ],
+  "permissions": {
+    "can_update": true
+  }
+}

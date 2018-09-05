@@ -169,13 +169,13 @@ public class ABC {
         
 		if (q.equalsIgnoreCase("Brands"))
 		//	resource = new ClassPathResource("5");
-			file = ResourceUtils.getFile("classpath:5");
+			file = ResourceUtils.getFile("5");
 		if (q.equalsIgnoreCase("Today's Deals"))
 		//	resource = new ClassPathResource("6");
-		file = ResourceUtils.getFile("classpath:6");
+		file = ResourceUtils.getFile("6");
 
 		else
-			file = ResourceUtils.getFile("classpath:4");
+			file = ResourceUtils.getFile("4");
 			//resource = new ClassPathResource("4");
 
 

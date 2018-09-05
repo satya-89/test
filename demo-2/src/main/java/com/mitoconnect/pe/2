@@ -1,0 +1,81 @@
+{
+  "pagination": {
+    "count": 5,
+    "total_count": 5,
+    "current_page": 1,
+    "per_page": 20,
+    "pages": 1
+  },
+  "data": [
+    {
+      "id": 17,
+      "type": "products",
+      "attributes": {
+        "slug": "ekebol-wooden-steal",
+        "name": "Icecream1",
+       "product_url": "assets/images/icecream1.jpeg",
+                    "price": "399.0",
+        "cost_price": "420.0",
+        "avg_rating": "0.0",
+        "reviews_count": 0,
+        "currency": "₹"
+      }
+    },
+    {
+      "id": 20,
+      "type": "products",
+      "attributes": {
+        "slug": "blue-white-bedsheets",
+        "name": "Blue white bedsheets",
+          "product_url": "assets/images/icecream1.jpeg",
+     "price": "25.0",
+        "cost_price": "26.4",
+        "avg_rating": "0.0",
+        "reviews_count": 0,
+        "currency": "₹"
+      }
+    },
+    {
+      "id": 21,
+      "type": "products",
+      "attributes": {
+        "slug": "cot-wooden-kids-bed",
+        "name": "Cot Wooden kids Bed",
+       "product_url": "assets/images/icecream1.jpeg",
+        "price": "120.0",
+        "cost_price": "135.0",
+        "avg_rating": "0.0",
+        "reviews_count": 0,
+        "currency": "₹"
+      }
+    },
+    {
+      "id": 23,
+      "type": "products",
+      "attributes": {
+        "slug": "aesthetic-and-timeless-beach-chair-design-for-home-outdoor-furniture",
+        "name": "icecream	",
+          "product_url": "assets/images/icecream1.jpeg",
+     "price": "260.0",
+        "cost_price": "270.0",
+        "avg_rating": "0.0",
+        "reviews_count": 0,
+        "currency": "₹"
+      }
+    },
+    {
+      "id": 24,
+      "type": "products",
+      "attributes": {
+        "slug": "wood-chest-of-drawers-the-console-piece-of-furniture",
+        "name": "icecream",
+           "product_url": "assets/images/icecream1.jpeg",
+    "price": "160.0",
+        "cost_price": "180.0",
+        "avg_rating": "0.0",
+        "reviews_count": 0,
+        "currency": "₹"
+      }
+    }
+  ]
+}
