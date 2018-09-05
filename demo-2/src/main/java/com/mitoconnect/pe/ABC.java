@@ -1,6 +1,7 @@
 package com.mitoconnect.pe;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -17,6 +18,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.FileCopyUtils;
+import org.springframework.util.ResourceUtils;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -163,22 +165,24 @@ public class ABC {
 			@RequestParam(value = "per_page", defaultValue = "2") final String per_page) throws Exception {
 		
 		Resource resource;
+		File file; //= ResourceUtils.getFile("classpath:application.properties");
+        
 		if (q.equalsIgnoreCase("Brands"))
-			resource = new ClassPathResource("5");
-
+		//	resource = new ClassPathResource("5");
+			file = ResourceUtils.getFile("classpath:5");
 		if (q.equalsIgnoreCase("Today's Deals"))
-			resource = new ClassPathResource("6");
+		//	resource = new ClassPathResource("6");
+		file = ResourceUtils.getFile("classpath:6");
 
 		else
+			file = ResourceUtils.getFile("classpath:4");
+			//resource = new ClassPathResource("4");
 
-			resource = new ClassPathResource("4");
 
-		System.out.println(q);
-
-		File file = resource.getFile();
+		//File file = resource.getFile();
 		String content = "";
 		try {
-			byte[] bdata = FileCopyUtils.copyToByteArray(resource.getInputStream());
+			byte[] bdata = FileCopyUtils.copyToByteArray(new FileInputStream(file));
 		
 			content = new String(bdata, StandardCharsets.UTF_8);
 		} catch (IOException e) {
